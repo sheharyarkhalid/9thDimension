@@ -1,0 +1,13 @@
+.portfolio_featured_product{
+    background-color: #353537 !important;
+}
+.our_product_images{
+width: 100% !important;
+padding-bottom: 15px;
+}
+.our_product_images img{
+    width: 100% !important;
+}
+.portfolio_box:hover{ 
+   background-color: #ff0066 !important;
+}

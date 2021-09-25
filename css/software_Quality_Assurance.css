@@ -1,7 +1,6 @@
 .software_qualiry_assurance_section{
 float: left;
 width: 100%;
-background-color: #f8f8f8;
 padding: 90px 10px;
 }
 .software_qualiry_assurance_heading{
@@ -16,19 +15,19 @@ text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
-    color: #212529;
+    color: #fff;
     margin-bottom: 15px;
 }
 .software_qualiry_assurance_heading p{
     font-size: 16px;
 margin-bottom: 15px;
-color: #212529;
+color: #fff;
 line-height: 22px;
 
 }
 
 .software_qualiry_assurance_heading h1 span{
-    color: #2176ff !important;
+    color: #ff0066 !important;
 }
 .software_qualiry_assurance_figure{
 display: flex;

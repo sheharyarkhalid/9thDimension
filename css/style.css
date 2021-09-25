@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     -web-kit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -5,7 +7,7 @@
    padding:0px;
    margin:0px;
    /* font-family: 'Lato', sans-serif; */
-   font-family: 'Raleway', sans-serif !important;
+ 
 }
    html {
      scroll-behavior: smooth;
@@ -527,6 +529,8 @@ padding-bottom: 110px;
     flex-direction: column;
     width: 100%;
     transition: 5s ease-in-out;
+    text-align: center;
+    align-items: center;
 }
 .Multi_domain_list .multi_domain_box:hover{
 background: linear-gradient(265deg,#ff0066,#ff0066);
@@ -549,7 +553,26 @@ color: #fff;
     margin-bottom: 25px;
     width: 75px;
 }
-
+.Multi_domain_list .multi_domain_box i{
+    height: 75px;
+    margin-bottom: 25px;
+    width: 75px;
+    color: #ff0066;
+    font-size: 65px;
+}
+.Multi_domain_list .multi_domain_box .svg_icon{
+    height: 75px;
+    margin-bottom: 25px;
+    width: 75px;
+    font-size: 65px;
+    color: #ff0066;
+}
+.Multi_domain_list .multi_domain_box:hover i{
+    color: #fff;
+}
+.Multi_domain_list .multi_domain_box:hover .svg_icon{
+    color: #fff;
+}
 .Multi_domain_list .multi_domain_box p{
     font-size: 18px;
 margin-bottom: 35px;
@@ -661,7 +684,10 @@ padding: 0px;
     display: flex !important;
     justify-content: center;
 }
-
+.patners_slider li i{
+    font-size: 60px;
+color: #f06;
+}
 
 /* company_patners end */
 
@@ -892,6 +918,10 @@ transition: 0.5s ease-in-out;
 
 /* contact_section start */
 
+.contact_container{
+    max-width: 800px;
+    margin: 0 auto;
+}
 .contact_section{
     float: left;
     width: 100%;
@@ -931,9 +961,9 @@ transition: 0.5s ease-in-out;
 }
 .contact_section_list{
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 grid-template-rows: auto;
-grid-template-rows: '. .';
+grid-template-rows: '.';
 gap: 30px 20px;
 }
 .contact_section_list .form_section{
@@ -1043,7 +1073,7 @@ font-weight: 600;
 border: none;
       }
 
-      .sales_head{
+      /* .sales_head{
         float: left;
         width: 100%;
         padding: 30px 20px 0px 20px;
@@ -1085,6 +1115,7 @@ gap: 0px 20px;
  .sale_head_personal_detail .naming_detail .personal_social_links span a{
    text-decoration: none;
    font-size: 20px;
+   color: #ff0066;
      }
      .sales_head_companies{
 float: left;
@@ -1106,8 +1137,8 @@ padding-bottom: 30px;
 .sales_head_companies_sliding{
 display: flex;
 width: 100%;
-}
-.sales_head_companies_slider{
+} */
+/* .sales_head_companies_slider{ */
 /* display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: auto;
@@ -1115,8 +1146,8 @@ gap: 20px 20px;
 width: 100%;
 padding-bottom: 20px; */
 
-}
-.sales_head_companies_slider li{
+/* } */
+/* .sales_head_companies_slider li{
     display: flex !important;
     justify-content: center;
     list-style: none;
@@ -1126,14 +1157,14 @@ ul.sales_head_companies_slider.slick-initialized.slick-slider {
     width: 100%;
     padding: 0px;
 }
-.sales_head_companies_slider_two{
+.sales_head_companies_slider_two{ */
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 20px 20px;
     width: 100%;
     padding-bottom: 0px; */
-    }
+    /* }
     .sales_head_companies_slider_two li{
         display: flex !important;
         justify-content: center;
@@ -1143,7 +1174,9 @@ ul.sales_head_companies_slider.slick-initialized.slick-slider {
         display: grid;
         width: 100%;
         padding: 0px;
-    }   
+    }    */
+
+
 /* contact_section end */
 
 
@@ -1396,7 +1429,7 @@ display: flex;
         }
     
         #service_hover_box {
-            left: -17px;
+            left: -100px;
         }  
         .header_bar .nav_bar ul li {
             padding: 10px 11px;
@@ -1550,6 +1583,13 @@ display: flex;
         height: 220px;
         overflow-y: scroll;
     }
+    .data_form_fields {
+        flex-direction: column;
+    }
+    .form_submit_btn button {
+        padding: 10px 50px;
+        font-size: 14px;
+    }
     .service_hover_box_list {
         grid-template-columns: 1fr;
         grid-template-areas: '.';
@@ -1580,6 +1620,7 @@ display: flex;
             grid-template-columns: 1fr;
             grid-template-areas: '.';
         }
+       
         .footer_head {
             flex-direction: column;
         }
@@ -1588,7 +1629,7 @@ display: flex;
         }
         .footer_head .mail_section strong {
             text-align: center;
-            padding-bottom: 10px;
+            padding-bottom: 5px;
         }
         .footer_body {
             grid-template-columns: 1fr;
@@ -1626,6 +1667,25 @@ display: flex;
         }
     }  
         @media (max-width: 380px) {
+            .header_bar .logo a {
+                font-size: 25px;
+            }
+            .header_bar .logo a span {
+                font-weight: bold;
+                font-size: 25px;
+            }
+            .mail_section span{
+                display: flex;
+                flex-direction: column;
+            }
+            .footer_head .mail_section span .mail_border {
+                text-align: center;
+                transform: rotate(30deg);
+            }
+            .technology_development_list .technology_development_box .technology_development_detail .technology_development_data .build_team_btn a {
+                padding: 7px 22px;
+            }
+
             .copy_right_field h4 a {
                 padding: 8px 0px 0px 25px;
                 display: block;
